@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kit Web Design UI - Connexion</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <style>
+      /* Ajout de styles personnalisés */
+      #banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      #auth-form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 40px;
+        background-color: #D98484;
+        text-align: center;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section id="banner">
+      <!-- Formulaire d'authentification -->
+      <section id="auth-form">
+        <h2>Connexion</h2>
+        <form>
+          <label for="username">Nom d'utilisateur:</label>
+          <input type="text" id="username" name="username" required>
+
+          <label for="password">Mot de passe:</label>
+          <input type="password" id="password" name="password" required>
+
+          <input type="submit" value="Se connecter">
+        </form>
+        <div class="forgot-password">
+          <a href="#">Mot de passe oublié ?</a>
+        </div>
+      </section>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2023 Kit Web Design UI - Tous droits réservés.</p>
+    </footer>
+  </body>
+</html>
